@@ -4,6 +4,45 @@
 @tailwind components;
 @tailwind utilities;
 
+.theme-custom {
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
+
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+    --gradient: #3CA55C;
+
+    --background: 147 30.549999999999997% 3.52%;
+    --foreground: 147 4.699999999999999% 97.2%;
+
+    --muted: 147 23.5% 13.2%;
+    --muted-foreground: 147 4.699999999999999% 54.4%;
+
+    --popover: 147 55.6% 5.72%;
+    --popover-foreground: 147 4.699999999999999% 97.2%;
+
+    --card: 147 55.6% 5.72%;
+    --card-foreground: 147 4.699999999999999% 97.2%;
+    --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+    --border: 147 23.5% 13.2%;
+    --input: 147 23.5% 13.2%;
+
+    --primary: 147 47% 44%;
+    --primary-foreground: 147 4.699999999999999% 97.2%;
+
+    --secondary: 147 23.5% 13.2%;
+    --secondary-foreground: 147 4.699999999999999% 97.2%;
+
+    --accent: 147 23.5% 13.2%;
+    --accent-foreground: 147 4.699999999999999% 97.2%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 147 4.699999999999999% 97.2%;
+
+    --ring: 147 47% 44%;
+}
+
 :root {
   --white-gradient: linear-gradient(
     144.39deg,
@@ -11,7 +50,6 @@
     #6d6d6d -78.47%,
     #dddddd 91.61%
   );
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
 * {
