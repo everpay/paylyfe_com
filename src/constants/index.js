@@ -162,29 +162,6 @@ export const footerLinks = [
   },
 ];
 
-export const copyrightLinks = [
-  {
-    links: [
-      {
-        name: "Terms & Services",
-        link: "https://www.everpayinc.com/terms/",
-      },
-      {
-        name: "Privacy Policy",
-        link: "https://www.everpayinc.com/privacy/",
-      },
-      {
-        name: "AML Policy",
-        link: "https://www.everpayinc.com/aml-policy/",
-      },
-      {
-        name: "Status",
-        link: "https://status.everpayinc.com/",
-      },
-    ],
-  },
-];
-
 export const socialMedia = [
   {
     id: "social-media-1",
