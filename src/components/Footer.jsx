@@ -1,6 +1,6 @@
 import styles from "../style";
 import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import { footerLinks, copyrightLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -40,7 +40,7 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-small text-center text-[10px] leading-[27px] text-black">
+      <p className="font-poppins font-small text-center text-[10px] leading-[27px] text-secondary">
         Copyright Ⓒ 2024 EverPay. All Rights Reserved.
       </p>
 
@@ -55,6 +55,24 @@ const Footer = () => (
             }`}
             onClick={() => window.open(social.link)}
           />
+        ))}
+      </div>
+      <div className="flex flex-row md:mt-0 mt-6">
+        {copyrightLinks.map((copyrightlink) => (
+          <div className={`flex flex-col ss:my-0 my-4`}>
+            <ul className="list-none">
+              {footerlink.links.map((link, index) => (
+                <li
+                  key={link.name}
+                  className={`font-poppins font-small text-[10px] leading-[24px] text-black hover:text-secondary cursor-pointer ${
+                    index !== copyrightlink.links.length - 1 ? "mb-4" : "mb-0"
+                  }`}
+                >
+                  {link.name}
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
       </div>
     </div>
