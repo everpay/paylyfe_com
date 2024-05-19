@@ -111,7 +111,7 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #3CA55C 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #676666 0%, #0a0a10ad 100%);
 }
 
 .box-shadow {
@@ -160,6 +160,11 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+}
+
+.green__gradient {
+  background: linear-gradient(180deg, rgba(86, 185, 103, 1) 0%, #3CA55C 100%);
+  filter: blur(123px);
 }
 
 .blue__gradient {
