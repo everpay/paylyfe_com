@@ -9,7 +9,7 @@ const Footer = () => (
         <img
           src={logo}
           alt="everpay"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="w-[135px] h-[52.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
           An easy new way to collect and payout, reliable and secure.
@@ -26,7 +26,7 @@ const Footer = () => (
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-black hover:text-secondary cursor-pointer ${
+                  className={`font-poppins font-normal text-[14px] leading-[24px] text-black hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
@@ -40,7 +40,7 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-small text-center text-[20px] leading-[27px] text-black">
+      <p className="font-poppins font-small text-center text-[10px] leading-[27px] text-black">
         Copyright Ⓒ 2024 EverPay. All Rights Reserved.
       </p>
 
