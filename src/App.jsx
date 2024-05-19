@@ -9,13 +9,13 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-white ${styles.flexStart}`}>
+    <div className={`white__gradient ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
     
-    <div className={`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`white__gradient ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
