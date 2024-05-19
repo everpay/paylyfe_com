@@ -1,9 +1,15 @@
 import styles from "../style";
 import { logo } from "../assets";
-import { footerLinks, copyrightLinks, socialMedia  } from "../constants";
+import { bgfooter } from "../assets";
+import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}> 
+    <img
+          src={bgfooter}
+          alt="background"
+          className="w-[900px] h-[450.14px]"
+        />
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
@@ -55,24 +61,6 @@ const Footer = () => (
             }`}
             onClick={() => window.open(social.link)}
           />
-        ))}
-      </div>
-      <div className="flex flex-row md:mt-0 mt-6">
-        {copyrightLinks.map((copyrightlink) => (
-          <div className={`flex flex-col ss:my-0 my-4`}>
-            <ul className="list-none">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-small text-[10px] leading-[24px] text-black hover:text-secondary cursor-pointer ${
-                    index !== copyrightlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
-              ))}
-            </ul>
-          </div>
         ))}
       </div>
     </div>
