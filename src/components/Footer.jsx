@@ -4,8 +4,8 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.footerImg} py-\[6px\] md:mt-6 mt-10 mb-0 ss:mb-0 ss:mt-10 flex-col`}> 
-    <div className={`${styles.flexStart} md:flex-row flex-col pb-10 w-full`}>
+  <section className={`${styles.flexCenter} ${styles.footerImg} py-\[6px\] md:mt-10 mt-10 mb-0 ss:mb-0 ss:mt-10 flex-col`}> 
+    <div className={`${styles.flexStart} md:flex-row flex-col pb-10 pt-6 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
@@ -40,7 +40,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col mt-6 mb-6 pb-10 border-t-[1px] border-t-[#3F3E45]">
+    <div className="w-full flex justify-between items-center md:flex-row flex-col mt-6 mb-6 pb-10 border-t-[1px] border-t-[#FFFFFF]">
       <p className="font-poppins font-small text-normal text-[12px] leading-[27px] md:mt-0 mt-6 pt-10 text-dimWhite">
         Copyright Ⓒ 2024 EverPay. All Rights Reserved.
       </p>
