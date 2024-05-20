@@ -4,7 +4,7 @@ import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}> 
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+    <div className={`${styles.flexStart} md:flex-row flex-col mb-6 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
@@ -39,8 +39,8 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-small text-normal text-[12px] leading-[27px] text-secondary">
+    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 pb-0 border-t-[1px] border-t-[#3F3E45]">
+      <p className="font-poppins font-small text-normal text-[12px] leading-[27px] text-dimBlack">
         Copyright Ⓒ 2024 EverPay. All Rights Reserved.
       </p>
 
