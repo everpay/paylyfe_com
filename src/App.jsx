@@ -26,7 +26,7 @@ const App = () => (
         <CTA />
       </div>
     </div>
-     <div className={`bg-footer ${styles.flexStart}`}>
+     <div className={`bgfooter_wave ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
         <Footer />
         </div>
