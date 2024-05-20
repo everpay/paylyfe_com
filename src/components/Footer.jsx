@@ -1,9 +1,10 @@
 import styles from "../style";
+import { bgwavefooter } from "../assets";
 import { logo } from "../assets";
 import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} py-\[6px\] md:mt-6 mt-10 mb-0 ss:mb-0 ss:mt-10 flex-col`}> 
+  <section className={`${styles.flexCenter} ${styles.footerImg} py-\[6px\] md:mt-6 mt-10 mb-0 ss:mb-0 ss:mt-10 flex-col`}> 
     <div className={`${styles.flexStart} md:flex-row flex-col pb-10 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
