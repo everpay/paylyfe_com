@@ -4,7 +4,7 @@ import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} pt-6 pb-0 mb-0 flex-col`}> 
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-1 pb-0 w-full`}>
+    <div className={`${styles.flexStart} md:flex-row flex-col pb-6 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
@@ -27,7 +27,7 @@ const Footer = () => (
                 <li
                   key={link.name}
                   className={`font-poppins font-normal text-[14px] leading-[24px] text-black hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
+                    index !== footerlink.links.length - 1 ? "mb-6" : "mb-4"
                   }`}
                 >
                   {link.name}
@@ -39,8 +39,8 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col mt-6 pb-0 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-small text-normal text-[12px] leading-[27px] mt-2 text-dimBlack">
+    <div className="w-full flex justify-between items-center md:flex-row flex-col mt-4 pb-0 border-t-[1px] border-t-[#3F3E45]">
+      <p className="font-poppins font-small text-normal text-[14px] leading-[27px] md:mt-0 mt-6 text-dimBlack">
         Copyright Ⓒ 2024 EverPay. All Rights Reserved.
       </p>
 
