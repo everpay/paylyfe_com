@@ -40,8 +40,8 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col mt-6 mb-2 pb-0">
-      <p className="font-poppins font-small text-normal text-[12px] leading-[27px] md:mt-6 mt-6 pt-10 text-dimWhite">
-        Copyright Ⓒ 2024 EverPay. All Rights Reserved.
+      <p className="font-poppins font-small text-normal text-[12px] leading-[27px] md:mt-0 mt-6 text-white">
+        Copyright Ⓒ 2024 Everpay. All Rights Reserved.
       </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
