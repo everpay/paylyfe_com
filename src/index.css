@@ -183,11 +183,9 @@
 }
 
 .bgfooter_wave {
-  background-image: url("assets/bgwavefooter.svg");
+  background-image: url("assets/bgfooterwave1.svg");
   background-size: auto; 
-  background-repeat: no-repeat;  
-  background-height: 520px;  
-  background-width: 1100px;   
+  background-repeat: no-repeat;    
 }
 
 .bn62 {
