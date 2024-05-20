@@ -182,6 +182,13 @@
   filter: blur(750px);
 }
 
+.bgfooter_wave {
+  background-image: url("assets/bgwavefooter.svg");
+  background-size: cover; 
+  background-repeat: no-repeat;  
+}
+
+
 .bn62 {
   color: #1cc49d;
   background-color: #1b2f31;
