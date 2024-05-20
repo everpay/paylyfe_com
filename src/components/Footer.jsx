@@ -3,7 +3,7 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} pt-6 pb-0 md:mt-0 mt-10 mb-0 flex-col`}> 
+  <section className={`${styles.flexCenter} py-\[6px\] md:mt-6 mt-10 mb-0 ss:mb-0 ss:mt-6 flex-col`}> 
     <div className={`${styles.flexStart} md:flex-row flex-col pb-6 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
