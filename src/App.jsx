@@ -24,9 +24,13 @@ const App = () => (
         <Testimonials />
         <Clients />
         <CTA />
-        <Footer />
       </div>
     </div>
+     <div className={`bg-footer ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+        <Footer />
+        </div>
+      </div>
   </div>
 );
 
