@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./node_modules/@relume_io/relume-ui/src/**/*.{js,ts,jsx,tsx}"],
+  Content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   presets: [require("@relume_io/relume-tailwind")],
   mode: "jit",
   theme: {
