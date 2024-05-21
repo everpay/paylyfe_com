@@ -4,7 +4,7 @@ import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} pt-6 md:mt-10 mt-10 ss:mt-10 mb-0 pt-10 flex-col`}> 
-    <div className={`${styles.flexStart} md:flex-row flex-col w-full pb-6`}>
+    <div className={`${styles.flexStart} md:flex-row flex-col w-full pb-10`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
