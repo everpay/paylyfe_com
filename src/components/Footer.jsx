@@ -3,15 +3,15 @@ import { logo } from "../assets";
 import { footerLinks, socialMedia  } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} pb-0 pt-10 md:mt-10 mt-10 mb-0 ss:mt-10 mb-0 pt-10 pb-0 flex-col`}> 
-    <div className={`${styles.flexStart} md:flex-row flex-col pb-10 pt-6 w-full`}>
+  <section className={`${styles.flexCenter} pb-6 pt-6 md:mt-10 mt-10 mb-0 ss:mt-10 mb-0 pt-10 pb-6 flex-col`}> 
+    <div className={`${styles.flexStart} md:flex-row flex-col w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo}
           alt="everpay"
-          className="w-[135px] h-[52.14px] object-contain"
+          className="w-[136px] h-[33.14px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
+        <p className={`${styles.paragraph} text-white mt-4 max-w-[312px]`}>
           An easy new way to collect and payout, reliable and secure.
         </p>
       </div>
